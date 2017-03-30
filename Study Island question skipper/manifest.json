@@ -1,0 +1,19 @@
+{
+// Made by: Jaden Batzel 
+  "manifest_version": 2,
+  "name": "Study Island Question Skipper",
+  "version": "0.1",
+   "icons": { "128": "Icon2.png"},
+  "description": "This Extension lets you skip any question on study island.",
+  "background": {
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+	"js": ["content.js"]
+    }
+  ],
+  "browser_action": {
+    "default_icon": "icon.png"
+  }
+}
