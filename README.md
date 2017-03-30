@@ -1,2 +1,2 @@
 # Study-Island-Question-Skipper
-Basic JS to skip questions in study Island.
+Basic chrome extension to skip questions in study Island.
